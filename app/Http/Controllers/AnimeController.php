@@ -5,8 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\View\View;
-use Illuminate\Support\Str; // Tambah ini kalau butuh Str di controller (tapi sebenarnya optional)
-
 class AnimeController extends Controller
 {
     public function index(): View
